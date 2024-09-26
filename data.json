@@ -1,0 +1,718 @@
+{
+    "students": [
+      {
+        "id": "12345",
+        "classRoll": "01",
+        "name": "John Doe",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA1",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 85,
+        "totalMark": 510,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 90, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12346",
+        "classRoll": "02",
+        "name": "Jane Smith",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA1",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "B+",
+        "avgMark": 82,
+        "totalMark": 492,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 88, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 82, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "Che": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 68, "grade": "B+", "point": 3.00 },
+          "HMM": { "mark": 62, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12347",
+        "classRoll": "03",
+        "name": "Alice Johnson",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA2",
+        "optionalCourse": "Biology",
+        "finalGrade": "A-",
+        "avgMark": 87,
+        "totalMark": 522,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 91, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 84, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 76, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 79, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 72, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 58, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12348",
+        "classRoll": "04",
+        "name": "Bob Brown",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA2",
+        "optionalCourse": "Biology",
+        "finalGrade": "B",
+        "avgMark": 80,
+        "totalMark": 480,
+        "totalGP": 4.00,
+        "subjects": {
+          "Ban": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 78, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 74, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 71, "grade": "A-", "point": 3.50 },
+          "Bio": { "mark": 65, "grade": "B+", "point": 3.00 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12349",
+        "classRoll": "05",
+        "name": "Charlie White",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIB",
+        "optionalCourse": "Chemistry",
+        "finalGrade": "A",
+        "avgMark": 89,
+        "totalMark": 534,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 90, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 87, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 78, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 73, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 65, "grade": "B+", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12350",
+        "classRoll": "06",
+        "name": "David Green",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIB",
+        "optionalCourse": "Chemistry",
+        "finalGrade": "B+",
+        "avgMark": 84,
+        "totalMark": 504,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 88, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 80, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 72, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 69, "grade": "B+", "point": 3.00 },
+          "HMM": { "mark": 63, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12351",
+        "classRoll": "07",
+        "name": "Eva Black",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIC",
+        "optionalCourse": "Physics",
+        "finalGrade": "A",
+        "avgMark": 90,
+        "totalMark": 540,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 92, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 89, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 85, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 77, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 64, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12352",
+        "classRoll": "08",
+        "name": "Frank Knight",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIC",
+        "optionalCourse": "Physics",
+        "finalGrade": "B",
+        "avgMark": 78,
+        "totalMark": 468,
+        "totalGP": 4.00,
+        "subjects": {
+          "Ban": { "mark": 86, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Phy": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "Che": { "mark": 68, "grade": "B+", "point": 3.00 },
+          "Bio": { "mark": 63, "grade": "B", "point": 3.00 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12353",
+        "classRoll": "09",
+        "name": "Grace Blue",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XID",
+        "optionalCourse": "Mathematics",
+        "finalGrade": "A-",
+        "avgMark": 88,
+        "totalMark": 528,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 89, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 84, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 78, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 81, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 75, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 62, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12354",
+        "classRoll": "10",
+        "name": "Henry Silver",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XID",
+        "optionalCourse": "Mathematics",
+        "finalGrade": "B+",
+        "avgMark": 82,
+        "totalMark": 492,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 78, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 72, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 65, "grade": "B+", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12355",
+        "classRoll": "11",
+        "name": "Isla Gold",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIE",
+        "optionalCourse": "Mathematics",
+        "finalGrade": "A",
+        "avgMark": 90,
+        "totalMark": 540,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 91, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 86, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 84, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 76, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 63, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12356",
+        "classRoll": "12",
+        "name": "Jack Gray",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIE",
+        "optionalCourse": "Mathematics",
+        "finalGrade": "B",
+        "avgMark": 79,
+        "totalMark": 474,
+        "totalGP": 4.00,
+        "subjects": {
+          "Ban": { "mark": 83, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 74, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 71, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 67, "grade": "B+", "point": 3.00 },
+          "Bio": { "mark": 60, "grade": "B", "point": 3.00 },
+          "HMM": { "mark": 55, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12357",
+        "classRoll": "13",
+        "name": "Liam Ash",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIF",
+        "optionalCourse": "Chemistry",
+        "finalGrade": "A+",
+        "avgMark": 92,
+        "totalMark": 552,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 95, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 90, "grade": "A+", "point": 5.00 },
+          "Phy": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 88, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 85, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 75, "grade": "A", "point": 4.00 }
+        }
+      },
+      {
+        "id": "12358",
+        "classRoll": "14",
+        "name": "Mia Rose",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIF",
+        "optionalCourse": "Chemistry",
+        "finalGrade": "B+",
+        "avgMark": 84,
+        "totalMark": 504,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 86, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 78, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 74, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 71, "grade": "A-", "point": 3.50 },
+          "Bio": { "mark": 66, "grade": "B+", "point": 3.00 },
+          "HMM": { "mark": 62, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12359",
+        "classRoll": "15",
+        "name": "Noah Blue",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIG",
+        "optionalCourse": "Biology",
+        "finalGrade": "A-",
+        "avgMark": 88,
+        "totalMark": 528,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 87, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 82, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 77, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 79, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 74, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 68, "grade": "B+", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12360",
+        "classRoll": "16",
+        "name": "Olivia Gold",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIG",
+        "optionalCourse": "Biology",
+        "finalGrade": "B",
+        "avgMark": 80,
+        "totalMark": 480,
+        "totalGP": 4.00,
+        "subjects": {
+          "Ban": { "mark": 84, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 76, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 72, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "Bio": { "mark": 65, "grade": "B+", "point": 3.00 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12361",
+        "classRoll": "17",
+        "name": "Sophia Red",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIH",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 91,
+        "totalMark": 546,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 93, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 88, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 79, "grade": "A-", "point": 3.50 },
+          "Bio": { "mark": 75, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 67, "grade": "B+", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12362",
+        "classRoll": "18",
+        "name": "Ava Green",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIH",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "B+",
+        "avgMark": 83,
+        "totalMark": 498,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 80, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 72, "grade": "A-", "point": 3.50 },
+          "Bio": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 63, "grade": "B", "point": 3.00 }
+        }
+      },{
+        "id": "12348",
+        "classRoll": "04",
+        "name": "Michael Brown",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA2",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "B",
+        "avgMark": 80,
+        "totalMark": 480,
+        "totalGP": 4.50,
+        "subjects": {
+          "Ban": { "mark": 87, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 72, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 68, "grade": "B+", "point": 3.00 },
+          "Che": { "mark": 74, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 69, "grade": "B+", "point": 3.00 },
+          "HMM": { "mark": 65, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12349",
+        "classRoll": "05",
+        "name": "Emily Davis",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA1",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A+",
+        "avgMark": 92,
+        "totalMark": 552,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 94, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 90, "grade": "A+", "point": 5.00 },
+          "Phy": { "mark": 88, "grade": "A+", "point": 5.00 },
+          "Che": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Bio": { "mark": 80, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 75, "grade": "A", "point": 4.00 }
+        }
+      },
+      {
+        "id": "12350",
+        "classRoll": "06",
+        "name": "Jacob Wilson",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA2",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A-",
+        "avgMark": 84,
+        "totalMark": 504,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 83, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 79, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 76, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 64, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12351",
+        "classRoll": "07",
+        "name": "Olivia Martin",
+        "group": "Science",
+        "version": "Bangla",
+        "section": "XIA1",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 89,
+        "totalMark": 534,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 91, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 87, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 74, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 68, "grade": "B+", "point": 3.50 }
+        }
+      },
+      {
+        "id": "12352",
+        "classRoll": "08",
+        "name": "William Anderson",
+        "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA6",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "B+",
+        "avgMark": 78,
+        "totalMark": 468,
+        "totalGP": 4.25,
+        "subjects": {
+          "Ban": { "mark": 80, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 72, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 69, "grade": "B+", "point": 3.00 },
+          "Che": { "mark": 74, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 65, "grade": "B", "point": 3.00 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12353",
+        "classRoll": "09",
+        "name": "Sophia Thomas",
+       "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA6",
+        "optionalCourse": "Biology",
+        "finalGrade": "A",
+        "avgMark": 88,
+        "totalMark": 528,
+        "totalGP": 4.90,
+        "subjects": {
+          "Ban": { "mark": 89, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 75, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 72, "grade": "B+", "point": 3.50 }
+        }
+      },
+      {
+        "id": "12354",
+        "classRoll": "10",
+        "name": "James Moore",
+        "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA6",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 86,
+        "totalMark": 516,
+        "totalGP": 4.85,
+        "subjects": {
+          "Ban": { "mark": 90, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 83, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 78, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 81, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 74, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 70, "grade": "B+", "point": 3.50 }
+        }
+      },
+      {
+        "id": "12355",
+        "classRoll": "11",
+        "name": "Lily Harris",
+        "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA5",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "B",
+        "avgMark": 79,
+        "totalMark": 474,
+        "totalGP": 4.35,
+        "subjects": {
+          "Ban": { "mark": 83, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Phy": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "Che": { "mark": 76, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 65, "grade": "B", "point": 3.00 },
+          "HMM": { "mark": 68, "grade": "B+", "point": 3.50 }
+        }
+      },
+      {
+        "id": "12356",
+        "classRoll": "12",
+        "name": "Benjamin Jackson",
+        "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA5",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 85,
+        "totalMark": 510,
+        "totalGP": 4.80,
+        "subjects": {
+          "Ban": { "mark": 89, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 84, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 62, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12357",
+        "classRoll": "13",
+        "name": "Charlotte Lee",
+        "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA5",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A-",
+        "avgMark": 84,
+        "totalMark": 504,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 88, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Phy": { "mark": 78, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 71, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 65, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12358",
+        "classRoll": "14",
+        "name": "Daniel White",
+        "group": "Commerce",
+        "version": "Bangla",
+        "section": "XIA5",
+        "optionalCourse": "Biology",
+        "finalGrade": "B+",
+        "avgMark": 81,
+        "totalMark": 486,
+        "totalGP": 4.25,
+        "subjects": {
+          "Ban": { "mark": 82, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 79, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 75, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 77, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 73, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 65, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12359",
+        "classRoll": "15",
+        "name": "Evelyn Clark",
+        "group": "Humanities",
+        "version": "Bangla",
+        "section": "XIA9",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 87,
+        "totalMark": 522,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 90, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 75, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 70, "grade": "B+", "point": 3.50 }
+        }
+      },
+      {
+        "id": "12360",
+        "classRoll": "16",
+        "name": "Henry Young",
+        "group": "Humanities",
+        "version": "Bangla",
+        "section": "XIA9",
+        "optionalCourse": "Biology",
+        "finalGrade": "A-",
+        "avgMark": 83,
+        "totalMark": 498,
+        "totalGP": 4.70,
+        "subjects": {
+          "Ban": { "mark": 87, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Phy": { "mark": 78, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 73, "grade": "A-", "point": 3.50 },
+          "Bio": { "mark": 70, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12361",
+        "classRoll": "17",
+        "name": "Amelia Walker",
+        "group": "Humanities",
+        "version": "Bangla",
+        "section": "XIA9",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A",
+        "avgMark": 89,
+        "totalMark": 534,
+        "totalGP": 5.00,
+        "subjects": {
+          "Ban": { "mark": 92, "grade": "A+", "point": 5.00 },
+          "Eng": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Phy": { "mark": 82, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 75, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 70, "grade": "B+", "point": 3.50 }
+        }
+      },
+      {
+        "id": "12362",
+        "classRoll": "18",
+        "name": "Alexander Scott",
+        "group": "Humanities",
+        "version": "Bangla",
+        "section": "XIA9",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "B+",
+        "avgMark": 80,
+        "totalMark": 480,
+        "totalGP": 4.40,
+        "subjects": {
+          "Ban": { "mark": 85, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 78, "grade": "A-", "point": 3.50 },
+          "Phy": { "mark": 74, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 76, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 72, "grade": "A-", "point": 3.50 },
+          "HMM": { "mark": 60, "grade": "B", "point": 3.00 }
+        }
+      },
+      {
+        "id": "12363",
+        "classRoll": "19",
+        "name": "Grace Adams",
+        "group": "Humanities",
+        "version": "Bangla",
+        "section": "XIA9",
+        "optionalCourse": "Higher Math",
+        "finalGrade": "A-",
+        "avgMark": 84,
+        "totalMark": 504,
+        "totalGP": 4.75,
+        "subjects": {
+          "Ban": { "mark": 86, "grade": "A", "point": 4.50 },
+          "Eng": { "mark": 80, "grade": "A", "point": 4.00 },
+          "Phy": { "mark": 77, "grade": "A", "point": 4.00 },
+          "Che": { "mark": 78, "grade": "A", "point": 4.00 },
+          "Bio": { "mark": 75, "grade": "A", "point": 4.00 },
+          "HMM": { "mark": 65, "grade": "B", "point": 3.00 }
+        }
+      }
+    ]
+  }
+  
